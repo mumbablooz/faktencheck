@@ -57,7 +57,7 @@ export default function RootLayout({ children }) {
         flexWrap: 'wrap',
       }}>        
       <Link style={LinkCss} href={'/'} >Home</Link>
-      <Link style={LinkCss} href={'TextUndSprachAnalyse/vierOhrenModel'} >Das Vier Ohren Model</Link>
+      <Link style={LinkCss} href={'TextUndSprachAnalyse/0'} >Das Vier Ohren Model</Link>
       <Link style={LinkCss} href={'TextUndSprachAnalyse'} >TextUndSprachAnalyse</Link>
 
       </nav>
