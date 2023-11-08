@@ -4,11 +4,11 @@ import Link from 'next/link'
 export default function ShowContribution({contribution}) {
   return (
     <div style={{
-        border: '1rem solid grey',
+        border: '1rem solid rgb(202,255,112)',
         borderRadius: '1rem',
         padding: '0.5rem'
     }}>
-         <h2>{contribution.question}</h2>
+         <h2>{contribution.titel}</h2>
         <p><b>von: </b>{contribution.from.youtubeChannel ? 
          <Link href={contribution.from.youtubeChannel}>{contribution.from.name}</Link> 
          : contribution.from.name}</p>

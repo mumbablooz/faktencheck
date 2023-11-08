@@ -1,14 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
-import {contributions} from '../contributions'
+import {methodsArray} from '../daten/methodsArray'
 export default function TextUndSprachAnalyse() {  
 
   return (
-    <section>
+    <section style={{
+      padding: '0.5rem'
+    }}>
       <h1>Text und Sprach Analyse</h1>
-      {contributions.map((element,contributionIndex)=>{
+      {methodsArray.map((element,contributionIndex)=>{
         
- return <Link key={`contribution-${contributionIndex}`} href={`/TextUndSprachAnalyse/'+${contributionIndex}`}>{element.titel}</Link>
+ return <Link id='Link' key={`contribution-${contributionIndex}`} href={`/TextUndSprachAnalyse/'+${contributionIndex}`}>{element.titel}</Link>
 })}
      
     </section>

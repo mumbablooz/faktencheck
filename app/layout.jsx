@@ -56,9 +56,9 @@ export default function RootLayout({ children }) {
         display: 'flex',
         flexWrap: 'wrap',
       }}>        
-      <Link style={LinkCss} href={'/'} >Home</Link>
-      <Link style={LinkCss} href={'/TextUndSprachAnalyse'} >TextUndSprachAnalyse</Link>
-      <Link style={LinkCss} href={'/questions'} >Fragen und Antworten</Link>
+      <Link className='Link' style={LinkCss} href={'/'} >Home</Link>
+      <Link className='Link' style={LinkCss} href={'/TextUndSprachAnalyse'} >Text und Sprachanalyse</Link>
+      <Link className='Link' style={LinkCss} href={'/questions'} >Fragen und Antworten</Link>
 
       </nav>
       </header>

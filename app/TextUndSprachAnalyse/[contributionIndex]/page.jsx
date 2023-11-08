@@ -3,22 +3,28 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from './../../styles.module.css'
 
-import {contributions} from '../../contributions'
-export default function VierOhrenModel({params}) {
+import {methodsArray} from '../../daten/methodsArray'
+
+export default function Method({params}) {
 console.log(params)
   return (
     <section style={{
       margin: '1rem',
+      padding: '0.5rem'
     }}>
-    <h2>{contributions[0].titel}</h2>
+
     <p>Informationen zu diesem Nachrichtenfilterwerkzeug findest du hier:</p>
     <ul>
-      <li style={{
+      {methodsArray.map((method,index)=>{
+    return (<li 
+  key={'method'+index}
+  style={{
         border: '1px solid black',
         borderRadius: '4px',
         padding: '1rem'
       }}>
-        <Link href={contributions[0].link}  
+        <h2>{method.titel}</h2>
+        <Link href={method.link}  
         target="_blank">
           <p style={{
         fontWeight: 'bold',
@@ -30,15 +36,18 @@ console.log(params)
       width={640}
       height={360}
       alt='4 Ohren Model-Video'
-      src={contributions[0].imageLink}
+      src={method.imageLink}
        />
       <p><b>Quelle:</b> studyflix.de</p>
       <b>Link: </b><p style={{
         fontSize: '10px',
-      }}>{contributions[0].link}</p>
-      <p><b>Video Länge: ca. 5 Minuten</b></p>
+      }}>{method.link}</p>
+      <p><b>Video Länge: ca. {method?.videoLength} Minuten</b></p>
       </Link>
-      </li>
+      </li>)
+      })}
+
+      
     </ul>
 
     </section>

@@ -5,7 +5,9 @@ import Link from 'next/link'
 export default function Questions() {
 
   return (
-    <section>
+    <section style={{
+      padding: '0.5rem'
+    }}>
         <h1>Fragen ohne Ende</h1>
         <ul>
           {questionsArray.map((question,index)=>{
