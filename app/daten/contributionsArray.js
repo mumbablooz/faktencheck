@@ -53,5 +53,37 @@ export const contributionsArray =[
             homepage: 'https://www.torial.com/benjamin.eckert',
         },
         
-    }
+    },
+    {
+        titel: 'Extremhitze und Starkregen: War das noch Wetter oder ist das schon Klima? | DER SPIEGEL',
+        question: '#Was ist das Judentum?',
+        image: '',
+        youtube: 'emlTIxgbFK8?si=yN4OQittucDFIxlj',
+        quelle: 'Chassidisches Judentum - 10 interessante Fakten über die ultraorthodoxen Juden | Sekten der Welt',
+        from: {
+            name: 'Pavlov - Research & Record',
+            youtubeChannel: 'https://www.youtube.com/@research-record_by_pavlov',
+            infos: '',
+            homepage: '',
+        },
+        
+    },
+
+    {
+        titel: 'Die teuerste Haftpflichtpolice der Welt',
+        question: 'Was ist Atomkraftenergie?',
+        link: 'https://www.manager-magazin.de/finanzen/versicherungen/a-761954.html',
+        date: '11.05.2011',
+        image: 'https://cdn.prod.www.manager-magazin.de/images/b18191fe-0001-0004-0000-000000126314_w850_r1.778_fpx59.77_fpy54.85.webp',
+        youtube: '',
+        quelle: 'manager-magazin.de / Rei/reuters/dapd',
+        accessDate: '08.11.2023',
+        from: {
+            name: 'Rei/reuters/dapd',
+            youtubeChannel: '',
+            infos: '',
+            homepage: '',
+        },
+        
+    },
 ]
