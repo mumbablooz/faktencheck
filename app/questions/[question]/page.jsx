@@ -9,12 +9,15 @@ export default function Question({params}) {
     <section style={{
       padding: '0.5rem 0'
     }}>
-<h1>{questionsArray[params.question]}</h1>
+<h1>{questionsArray[params.question].question}</h1>
 <ul>
 {contributionsArray.map((contribution,index)=>{
 
-    if(contribution.question===questionsArray[params.question]){
-      return <li key={'contribution-'+index}><ShowContribution contribution={contribution} /></li>
+    if(contribution.question===questionsArray[params.question].question){
+      return <li 
+      key={'contribution-'+index}
+      
+      ><ShowContribution contribution={contribution} /></li>
     }
 
 })}
