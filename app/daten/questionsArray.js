@@ -49,4 +49,34 @@ answers: []
     answered: "inProgress",
     answers: []
     },
+    {
+        question: "Gibt es den Corona Virus?",
+        answered: "inProgress",
+        answers: []
+        },
+        {
+            question: "Wie funktionieren Impfungen?",
+            answered: "inProgress",
+            answers: []
+            },
+            {
+            question: "Was unterscheidet eine Coronaimpfung von anderen Impfungen?",
+            answered: "inProgress",
+            answers: []
+            },
+            {
+                question: "Geht es beim Impfen um Selbstschutz? Geht es bei der Coronaimpfung um Selbstschutz?",
+                answered: "inProgress",
+                answers: []
+                },
+                {
+                    question: "Was ist eine Impfpflicht?",
+                    answered: "inProgress",
+                    answers: []
+                    },
+                    {
+                        question: "Wie funktioniert die Freigabe eines Impfstoffes?",
+                        answered: "inProgress",
+                        answers: []
+                        },
 ]
