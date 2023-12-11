@@ -12,9 +12,13 @@ export default function Questions() {
         <ul>
           {questionsArray.map((question,index)=>{
             return (
-              <li key={'question-'+index}>
+              <li 
+              style={{
+                margin: '1rem'
+              }}
+              key={'question-'+index}>
                <Link href={'/questions/'+index}>
-               <p><b>{question}</b></p>
+               <p><b>{question.question}</b></p>
                </Link> 
               </li>
             )
