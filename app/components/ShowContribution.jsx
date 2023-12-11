@@ -8,8 +8,9 @@ export default function ShowContribution({contribution}) {
         border: '1rem solid rgb(202,255,112)',
         borderRadius: '1rem',
         padding: '0.5rem'
-    }}>
+    }}><Link href={contribution.link}>
          <h2>{contribution.titel}</h2>
+        </Link>  
         <p><b>von: </b>{contribution.from.youtubeChannel ? 
          <Link href={contribution.from.youtubeChannel}>{contribution.from.name}</Link> 
          : contribution.from.name}</p>
