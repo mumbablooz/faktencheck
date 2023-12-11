@@ -86,4 +86,23 @@ export const contributionsArray =[
         },
         
     },
+    {
+        titel: 'Zitate: Rassismus bei Rudolf Steiner',
+        question: 'War Rudolf Steiner ein Rassist ?',
+        link: 'http://www.humanistische-aktion.de/steiner.htm',
+        date: '',
+        image: '',
+        youtube: '',
+        quelle: `Humanistische AKTION
+        für verantwortliche Menschlichkeit  
+        Gemeinnützige Initiative seit 1994,
+        accessDate: 08.11.2023`,
+        from: {
+            name: 'Rudolf Kuhr',
+            youtubeChannel: '',
+            infos: '',
+            homepage: '',
+        },
+        
+    },
 ]

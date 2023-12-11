@@ -20,9 +20,9 @@ export const questionsArray =[
     answers: []
 },
 {
-    question: "Ist Rudolf Steiner ein Rassist?",
+    question: "War Rudolf Steiner ein Rassist ?",
     answered: "inProgress",
-    answers: []
+    category: ["waldorf"]
 },
 {
 question: "Fließt der Rassismus von Rudolf Steiner auch in seine Überlegungen?",
@@ -30,17 +30,17 @@ answered: "inProgress",
 answers: []
 },
 {
-question: "Werden diese Überlegungen heute von Walddorfpädagogen übernommen?",
+question: "Werden diese Überlegungen heute von Waldorfpädagogen übernommen?",
 answered: "inProgress",
 answers: []
 },
 {
-question: "Wird Rudolf Steiner von den Walddorf Pädagogen verehrt oder dizanzieren sich die Waldorfeinrichtungen heute von ihm?",
+question: "Wird Rudolf Steiner von den Waldorf Pädagogen verehrt oder dizanzieren sich die Waldorfeinrichtungen heute von ihm?",
 answered: "inProgress",
 answers: []
 },
 {
-    question: "Ist die Waldorfpädagogig eine wissenschaftlich belegte Pädagogik? Gibt es Studien die das beweisen?",
+    question: "Ist die Waldorfpädagogik eine wissenschaftlich belegte Pädagogik? Gibt es Studien die das beweisen?",
     answered: "inProgress",
     answers: []
     },
