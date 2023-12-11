@@ -105,4 +105,36 @@ export const contributionsArray =[
         },
         
     },
+    {
+        titel: 'Rassen/Rassismus',
+        question: 'War Rudolf Steiner ein Rassist ?',
+        link: 'https://brill.com/display/book/9783657792252/BP000039.xml',
+        date: '',
+        image: '',
+        youtube: '',
+        quelle: `brill.com`,
+        from: {
+            name: 'Helmut Zander',
+            youtubeChannel: '',
+            infos: '',
+            homepage: '',
+        },
+        
+    },
+    {
+        titel: 'Völkisch und National',
+        question: 'War Rudolf Steiner ein Rassist ?',
+        link: 'https://www.unifr.ch/screl/fr/assets/public/Zander%20Rudolf%20Steiners%20Rassentheorie%20(2009).pdf',
+        date: '',
+        image: '',
+        youtube: '',
+        quelle: `Universität Freiburg`,
+        from: {
+            name: 'Uwe Puschner / G. Ulrich Großmann (Hrsg)',
+            youtubeChannel: '',
+            infos: '',
+            homepage: '',
+        },
+        
+    },
 ]
