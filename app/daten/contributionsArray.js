@@ -15,7 +15,7 @@ export const contributionsArray =[
     },
     {
         titel: 'Ernst U. von Weizsäcker: Wir sind dran. Club of Rome: Der große Bericht',
-        question: 'Was sind die Grenzen des Wachstums?',
+        question: "Was sind die \"Grenzen des Wachstums\"?",
         image: '',
         youtube: 'F6uZJ4nWUPg?si=R09kMARt_ybeUJm6',
         quelle: 'youtube.com',
@@ -28,7 +28,7 @@ export const contributionsArray =[
     },
     {
         titel: 'Die schockierende Wahrheit über die Klimakrise | Klimawandel | Harald Lesch',
-        question: 'Gibt es den Klimawandel?',
+        question: 'Gibt es den von Menschen gemachten Klimawandel?',
         image: '',
         youtube: 's2txunrkr8M?si=dN8ALo14PTaDBdQ6',
         quelle: 'youtube.com',
