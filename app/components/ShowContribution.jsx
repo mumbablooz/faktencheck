@@ -15,7 +15,7 @@ export default function ShowContribution({contribution}) {
          : contribution.from.name}</p>
          {contribution.link ? <Link href={contribution.link}>
           <p>{contribution.link}</p>
-          <Image src={contribution.image} width={100} height={100} alt='Beitrags Bild nicht vorhanden' style={{borderRadius: '0.4rem'}}/>
+          {contribution.image && <Image src={contribution.image} width={100} height={100} alt='Beitrags Bild nicht vorhanden' style={{borderRadius: '0.4rem'}}/>}
           </Link> : ''}
      
       {contribution.youtube ? <ShowYoutubeVideo youtubeLink={contribution.youtube}/> : ''}
