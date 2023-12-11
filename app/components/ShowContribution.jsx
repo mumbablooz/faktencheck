@@ -7,7 +7,8 @@ export default function ShowContribution({contribution}) {
     <div style={{
         border: '1rem solid rgb(202,255,112)',
         borderRadius: '1rem',
-        padding: '0.5rem'
+        padding: '0.5rem',
+        marginBottom: '0.4rem'
     }}><Link href={contribution.link}>
          <h2>{contribution.titel}</h2>
         </Link>  
