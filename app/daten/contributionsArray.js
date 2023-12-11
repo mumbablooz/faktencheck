@@ -42,7 +42,7 @@ export const contributionsArray =[
     },
     {
         titel: 'Extremhitze und Starkregen: War das noch Wetter oder ist das schon Klima? | DER SPIEGEL',
-        question: 'Gibt es den von Menschen gemachten Klimawandel?',
+        question: 'Gibt es den Klimawandel?',
         image: '',
         youtube: 'Asf-pOHCWe0?si=ZrFt9I5QbZygTOFa',
         quelle: 'DER SPIEGEL / Reuters',

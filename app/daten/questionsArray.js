@@ -5,12 +5,12 @@ export const questionsArray =[
         answers: []
 },
 {
-    question: "Gibt es den Klimawandel?",
+    question: "Gibt es den von Menschen gemachten Klimawandel?",
     answered: "inProgress",
     answers: []
 },
 {
-    question: "Was sind die Grenzen des Wachstums?",
+    question: "Was sind die \"Grenzen des Wachstums\"?",
     answered: "inProgress",
     answers: []
 },
