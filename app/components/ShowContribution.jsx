@@ -9,19 +9,19 @@ export default function ShowContribution({contribution}) {
         borderRadius: '1rem',
         padding: '0.5rem',
         marginBottom: '0.4rem'
-    }}><Link href={contribution.link}>
+    }}>{contribution.link && <Link href={contribution.link}>
          <h2>{contribution.titel}</h2>
-        </Link>  
+        </Link> } 
         <p><b>von: </b>{contribution.from.youtubeChannel ? 
          <Link href={contribution.from.youtubeChannel}>{contribution.from.name}</Link> 
          : contribution.from.name}</p>
-         {contribution.link ? <Link href={contribution.link}>
+         {contribution.link && <Link href={contribution.link}>
           <p>{contribution.link}</p>
           {contribution.image && <Image src={contribution.image} width={100} height={100} alt='Beitrags Bild nicht vorhanden' style={{borderRadius: '0.4rem'}}/>}
-          </Link> : ''}
+          </Link>}
      
-      {contribution.youtube ? <ShowYoutubeVideo youtubeLink={contribution.youtube}/> : ''}
-         <p><b>Quelle: </b>{contribution.quelle}</p>                            
+      {contribution.youtube && <ShowYoutubeVideo youtubeLink={contribution.youtube}/>}
+         {contribution.quelle && <p><b>Quelle: </b>{contribution.quelle}</p>  }                          
     </div>
   )
 }
