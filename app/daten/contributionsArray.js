@@ -42,7 +42,7 @@ export const contributionsArray =[
     },
     {
         titel: 'Extremhitze und Starkregen: War das noch Wetter oder ist das schon Klima? | DER SPIEGEL',
-        question: 'Gibt es den Klimawandel?',
+        question: 'Gibt es den von Menschen gemachten Klimawandel?',
         image: '',
         youtube: 'Asf-pOHCWe0?si=ZrFt9I5QbZygTOFa',
         quelle: 'DER SPIEGEL / Reuters',
@@ -55,8 +55,7 @@ export const contributionsArray =[
         
     },
     {
-        titel: 'Extremhitze und Starkregen: War das noch Wetter oder ist das schon Klima? | DER SPIEGEL',
-        question: '#Was ist das Judentum?',
+        titel: 'Wer sind die Juden?',
         image: '',
         youtube: 'emlTIxgbFK8?si=yN4OQittucDFIxlj',
         quelle: 'Chassidisches Judentum - 10 interessante Fakten über die ultraorthodoxen Juden | Sekten der Welt',
