@@ -148,4 +148,5 @@ export const contributionsArray =[
             infos: '',
             homepage: '',
         },   
+}
 ]
