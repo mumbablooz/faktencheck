@@ -79,4 +79,9 @@ answers: []
                         answered: "inProgress",
                         answers: []
                         },
+                                {
+        question: "Stimmt es, daß die Nato dem Putin oder dem Land Russland versprochen hat die Nato nicht nach Osten zu erweitern?",
+        answered: "inProgress",
+        answers: []
+},
 ]
