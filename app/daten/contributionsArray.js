@@ -1,5 +1,20 @@
 export const contributionsArray =[
     {
+        titel: 'Völkisch und NationalDie "FRIEDENSFALLE": Putins WAHRE STRATEGIE!',
+        question: 'Stimmt es, daß die Nato dem Putin oder dem Land Russland versprochen hat die Nato nicht nach Osten zu erweitern?',
+        link: '',
+        date: '21.12.2023',
+        image: 'https://commons.wikimedia.org/wiki/File:Cabecera-visualPolitik.jpg#/media/Datei:Cabecera-visualPolitik.jpg',
+        youtube: 'cmwgiVCNwUw?si=dvkebOYBQwtDpsxI',
+        quelle: `Visual Politik`,
+        from: {
+            name: 'Mark Reicher',
+            youtubeChannel: 'https://www.youtube.com/@MarkReicher',
+            infos: 'https://de.wikipedia.org/wiki/VisualPolitik',
+            homepage: 'https://visualpolitik.de/',
+        },        
+    },
+    {
         titel: 'Wissenschaftsleugnung: Ist der Kampf schon verloren?',
         question: 'Wie funktioniert Wissenschaft?',
         image: '',
