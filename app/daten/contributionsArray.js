@@ -21,7 +21,7 @@ export const contributionsArray =[
         quelle: 'youtube.com',
         from: {
             name: 'Ernst U. von Weizsäcker',
-            youtubeChannel: 'https://www.youtube.com/@ProfLemeshko',
+            youtubeChannel: '',
             infos: 'https://geschichte-umweltpolitikberatung.org/bio/prof-dr-ernst-ulrich-von-weizsaecker.html',
             homepage: 'https://ernst.weizsaecker.de/',
         },        
