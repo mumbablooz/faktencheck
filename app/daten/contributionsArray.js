@@ -137,4 +137,16 @@ export const contributionsArray =[
         },
         
     },
+{
+        titel: 'DAS hat meine Forschungsgruppe 2023 entdeckt',
+        question: "Wie funktioniert WissenschaftWissenschaft?",
+        image: '',
+        youtube: 'CeOmw7rt4mk?si=m21AmbajWr0IDwzy',
+        quelle: 'Prof. Lemeshko auf Youtube',
+        from: {
+            name: 'Prof Lemeshko',
+            youtubeChannel: 'https://www.youtube.com/@ProfLemeshko',
+            infos: '',
+            homepage: '',
+        },   
 ]
