@@ -1,6 +1,5 @@
 import React from 'react'
 import {categorysArray } from '../../../daten/categorysArray'
-import ShowContribution from '@/app/components/ShowContribution'
 import { questionsArray } from '@/app/daten/questionsArray'
 import Link from 'next/link'
 
@@ -12,9 +11,9 @@ export default function Category({params}) {
 {questionsArray.map((question, questionIndex)=>{
 return (<div key={'questionContainer-'+questionIndex}>
 
-  {question.categorys && question.categorys.map((category,index)=>{
+  {question.categorys && question.categorys.map((category,categoryIndex)=>{
     if(category===categorysArray[params.categoryIndex].stateName){
-      return (<div key={'question-'+index}>
+      return (<div key={'question-'+categoryIndex}>
      <Link href={`/questions/${questionIndex}`}>
      <p style={{marginBottom: '0.4rem'}}>{question.question}</p></Link> 
 

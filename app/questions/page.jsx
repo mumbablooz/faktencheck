@@ -22,7 +22,7 @@ return length
     }}>
 
         <ul>
-          {questionsArray.map((question,index)=>{
+          {questionsArray.map((question,questionIndex)=>{
         const length = checkForContributionsLength(question.question)
             return (
               <li 
@@ -30,8 +30,8 @@ return length
                 marginBottom: '0.6rem',
                 borderBottom: '0.1rem solid black'
               }}
-              key={'question-'+index}>
-               <Link href={'/questions/'+index}>
+              key={'question-'+questionIndex}>
+               <Link href={`/questions/${questionIndex}`}>
                <p><b style={{marginRight: '2rem'}}>{question.question}</b>Antworten: {length}</p>
                </Link> 
               </li>

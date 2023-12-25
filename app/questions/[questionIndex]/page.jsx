@@ -11,11 +11,11 @@ export default function Question({params}) {
     }}>
 <h1>{questionsArray[params.questionIndex].question}</h1>
 <ul>
-{contributionsArray.map((contribution,index)=>{
+{contributionsArray.map((contribution,contributionIndex)=>{
 
     if(contribution.question===questionsArray[params.questionIndex].question){
       return <li 
-      key={'contribution-'+index}
+      key={'contribution-'+contributionIndex}
       
       ><ShowContribution contribution={contribution} /></li>
     }
