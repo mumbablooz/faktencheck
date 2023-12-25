@@ -6,11 +6,10 @@ import Link from 'next/link'
 
 export default function Questions() {
 
- 
-
-function checkForContributions(question){
+function checkForContributionsLength(question){
 let length = 0
   contributionsArray.map((contribution)=>{
+
     if(contribution.question===question){
       ++length
     }
@@ -21,14 +20,14 @@ return length
     <section style={{
       padding: '0.5rem'
     }}>
-        <h1>Fragen ohne Ende</h1>
+
         <ul>
           {questionsArray.map((question,index)=>{
-        const length = checkForContributions(question.question)
+        const length = checkForContributionsLength(question.question)
             return (
               <li 
               style={{
-                margin: '1rem',
+                marginBottom: '0.6rem',
                 borderBottom: '0.1rem solid black'
               }}
               key={'question-'+index}>

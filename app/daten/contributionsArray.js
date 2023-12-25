@@ -1,20 +1,5 @@
 export const contributionsArray =[
     {
-        titel: 'Völkisch und NationalDie "FRIEDENSFALLE": Putins WAHRE STRATEGIE!',
-        question: 'Stimmt es, daß die Nato dem Putin oder dem Land Russland versprochen hat die Nato nicht nach Osten zu erweitern?',
-        link: '',
-        date: '21.12.2023',
-        image: 'https://commons.wikimedia.org/wiki/File:Cabecera-visualPolitik.jpg#/media/Datei:Cabecera-visualPolitik.jpg',
-        youtube: 'cmwgiVCNwUw?si=dvkebOYBQwtDpsxI',
-        quelle: `Visual Politik`,
-        from: {
-            name: 'Mark Reicher',
-            youtubeChannel: 'https://www.youtube.com/@MarkReicher',
-            infos: 'https://de.wikipedia.org/wiki/VisualPolitik',
-            homepage: 'https://visualpolitik.de/',
-        },        
-    },
-    {
         titel: 'Wissenschaftsleugnung: Ist der Kampf schon verloren?',
         question: 'Wie funktioniert Wissenschaft?',
         image: '',
@@ -26,8 +11,9 @@ export const contributionsArray =[
             infos: '',
             homepage: '',
         },
-
+        categorys: ["wissenschaft"]
     },
+
     {
         titel: 'Ernst U. von Weizsäcker: Wir sind dran. Club of Rome: Der große Bericht',
         question: "Was sind die \"Grenzen des Wachstums\"?",
@@ -36,11 +22,13 @@ export const contributionsArray =[
         quelle: 'youtube.com',
         from: {
             name: 'Ernst U. von Weizsäcker',
-            youtubeChannel: '',
+            youtubeChannel: 'https://www.youtube.com/@ProfLemeshko',
             infos: 'https://geschichte-umweltpolitikberatung.org/bio/prof-dr-ernst-ulrich-von-weizsaecker.html',
             homepage: 'https://ernst.weizsaecker.de/',
-        },        
+        },   
+        categorys: ["wissenschaft","klimawandel","wirtschaft"]            
     },
+
     {
         titel: 'Die schockierende Wahrheit über die Klimakrise | Klimawandel | Harald Lesch',
         question: 'Gibt es den von Menschen gemachten Klimawandel?',
@@ -53,11 +41,11 @@ export const contributionsArray =[
             infos: 'https://de.wikipedia.org/wiki/Harald_Lesch',
             homepage: 'https://ernst.weizsaecker.de/',
         },
-        
+        categorys: ["wissenschaft","klimawandel","wirtschaft"]  
     },
     {
         titel: 'Extremhitze und Starkregen: War das noch Wetter oder ist das schon Klima? | DER SPIEGEL',
-        question: 'Gibt es den von Menschen gemachten Klimawandel?',
+        question: 'Gibt es den Klimawandel?',
         image: '',
         youtube: 'Asf-pOHCWe0?si=ZrFt9I5QbZygTOFa',
         quelle: 'DER SPIEGEL / Reuters',
@@ -67,10 +55,11 @@ export const contributionsArray =[
             infos: 'https://www.spiegel.de/impressum/autor-776834e6-c6bd-4e40-b664-f7ce0d899f72',
             homepage: 'https://www.torial.com/benjamin.eckert',
         },
-        
+        categorys: ["wissenschaft","klimawandel","wirtschaft"]  
     },
     {
-        titel: 'Wer sind die Juden?',
+        titel: 'Extremhitze und Starkregen: War das noch Wetter oder ist das schon Klima? | DER SPIEGEL',
+        question: '#Was ist das Judentum?',
         image: '',
         youtube: 'emlTIxgbFK8?si=yN4OQittucDFIxlj',
         quelle: 'Chassidisches Judentum - 10 interessante Fakten über die ultraorthodoxen Juden | Sekten der Welt',
@@ -98,7 +87,7 @@ export const contributionsArray =[
             infos: '',
             homepage: '',
         },
-        
+        categorys: ["wissenschaft","klimawandel","wirtschaft"]  
     },
     {
         titel: 'Zitate: Rassismus bei Rudolf Steiner',
@@ -117,7 +106,7 @@ export const contributionsArray =[
             infos: '',
             homepage: '',
         },
-        
+        categorys: ["wissenschaft","rassismus","waldorf","Anthropologie"]  
     },
     {
         titel: 'Rassen/Rassismus',
@@ -133,7 +122,7 @@ export const contributionsArray =[
             infos: '',
             homepage: '',
         },
-        
+        categorys: ["wissenschaft","rassismus","waldorf","Anthropologie"]  
     },
     {
         titel: 'Völkisch und National',
@@ -149,19 +138,22 @@ export const contributionsArray =[
             infos: '',
             homepage: '',
         },
-        
+        categorys: ["wissenschaft","rassismus","waldorf","Anthropologie"]  
     },
-{
-        titel: 'DAS hat meine Forschungsgruppe 2023 entdeckt',
-        question: "Wie funktioniert Wissenschaft?",
-        image: '',
-        youtube: 'CeOmw7rt4mk?si=m21AmbajWr0IDwzy',
-        quelle: 'Prof. Lemeshko auf Youtube',
+    {
+        titel: 'Völkisch und NationalDie "FRIEDENSFALLE": Putins WAHRE STRATEGIE!',
+        question: 'Stimmt es, daß die Nato dem Putin oder dem Land Russland versprochen hat die Nato nicht nach Osten zu erweitern?',
+        link: '',
+        date: '21.12.2023',
+        image: 'https://commons.wikimedia.org/wiki/File:Cabecera-visualPolitik.jpg#/media/Datei:Cabecera-visualPolitik.jpg',
+        youtube: 'cmwgiVCNwUw?si=dvkebOYBQwtDpsxI',
+        quelle: `Visual Politik`,
         from: {
-            name: 'Prof Lemeshko',
-            youtubeChannel: 'https://www.youtube.com/@ProfLemeshko',
-            infos: '',
-            homepage: '',
-        },   
-}
+            name: 'Mark Reicher',
+            youtubeChannel: 'https://www.youtube.com/@MarkReicher',
+            infos: 'https://de.wikipedia.org/wiki/VisualPolitik',
+            homepage: 'https://visualpolitik.de/',
+        },       
+        categorys: ["wirtschaft","rassismus","putin","ukraineKrieg"]   
+    },
 ]

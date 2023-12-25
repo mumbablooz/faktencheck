@@ -2,86 +2,103 @@ export const questionsArray =[
 {
         question: "Wie funktioniert Wissenschaft?",
         answered: "inProgress",
-        answers: []
+        answers: [],
+        categorys: ["wissenschaft"]
 },
 {
     question: "Gibt es den von Menschen gemachten Klimawandel?",
     answered: "inProgress",
-    answers: []
+    answers: [],
+    categorys: ["wissenschaft","klimawandel"]
 },
 {
     question: "Was sind die \"Grenzen des Wachstums\"?",
     answered: "inProgress",
-    answers: []
+    answers: [],
+    categorys: ["wissenschaft","wirtschaft","klimawandel"]
 },
 {
     question: "Was ist Atomkraftenergie?",
     answered: "inProgress",
-    answers: []
+    answers: [],
+    categorys: ["wissenschaft","wirtschaft","energie"]
 },
 {
     question: "War Rudolf Steiner ein Rassist ?",
     answered: "inProgress",
-    category: ["waldorf"]
+    categorys: ["waldorf","anthropologie","rudolfSteiner","rassismaus"],
+
 },
 {
 question: "Fließt der Rassismus von Rudolf Steiner auch in seine Überlegungen?",
 answered: "inProgress",
-answers: []
+answers: [],
+categorys: ["waldorf","anthropologie","rudolfSteiner","rassismus"],
 },
 {
 question: "Werden diese Überlegungen heute von Waldorfpädagogen übernommen?",
 answered: "inProgress",
-answers: []
+answers: [],
+categorys: ["waldorf","anthropologie","rudolfSteiner","rassismus"],
 },
 {
 question: "Wird Rudolf Steiner von den Waldorf Pädagogen verehrt oder dizanzieren sich die Waldorfeinrichtungen heute von ihm?",
 answered: "inProgress",
-answers: []
+answers: [],
+categorys: ["waldorf","anthropologie","rudolfSteiner","rassismus"]
 },
 {
     question: "Ist die Waldorfpädagogik eine wissenschaftlich belegte Pädagogik? Gibt es Studien die das beweisen?",
     answered: "inProgress",
-    answers: []
+    answers: [],
+    categorys: ["waldorf","anthropologie","rudolfSteiner","rassismus"]
     },
     {
     question: "Ist Anthropologie eine echte Wissenschaft? Gibt es Studien die das beweisen?",
     answered: "inProgress",
-    answers: []
+    answers: [],
+    categorys: ["anthropologie","rudolfSteiner","rassismus"],
     },
     {
         question: "Gibt es den Corona Virus?",
         answered: "inProgress",
-        answers: []
+        answers: [],
+        categorys: ["coronaVirus","impfen","wissenschaft"],
         },
         {
             question: "Wie funktionieren Impfungen?",
             answered: "inProgress",
-            answers: []
+            answers: [],
+            categorys: ["impfen","wissenschaft","rassismus"],
             },
             {
             question: "Was unterscheidet eine Coronaimpfung von anderen Impfungen?",
             answered: "inProgress",
-            answers: []
+            answers: [],
+            categorys: ["impfen","wissenschaft","rassismus"],
             },
             {
                 question: "Geht es beim Impfen um Selbstschutz? Geht es bei der Coronaimpfung um Selbstschutz?",
                 answered: "inProgress",
-                answers: []
+                answers: [],
+                categorys: ["impfen","wissenschaft","rassismus"],
                 },
                 {
                     question: "Was ist eine Impfpflicht?",
                     answered: "inProgress",
-                    answers: []
+                    answers: [],
+                    categorys: ["impfen","wissenschaft","rassismus"],
                     },
                     {
                         question: "Wie funktioniert die Freigabe eines Impfstoffes?",
                         answered: "inProgress",
-                        answers: []
+                        answers: [],
+                        categorys: ["impfen","wissenschaft"],
                         },
-                                {
+                        {
         question: "Stimmt es, daß die Nato dem Putin oder dem Land Russland versprochen hat die Nato nicht nach Osten zu erweitern?",
         answered: "inProgress",
-        answers: []
+        answers: [],
+        categorys: ["putin","ukraineKrieg","rassismus"],
 },
 ]
