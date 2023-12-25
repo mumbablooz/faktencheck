@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Categorys() {
   return (
     <section>
-      <h3>Categorien</h3>
+      <h3>Kategorien</h3>
 {categorysArray.map((category,categoryIndex)=>{
     return (<div key={'category-'+categoryIndex}
     style={{marginBottom: '0.6rem'}}>
