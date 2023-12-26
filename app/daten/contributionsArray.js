@@ -1,20 +1,5 @@
 export const contributionsArray =[
-    {
-        titel: 'Wissenschaftsleugnung: Ist der Kampf schon verloren?',
-        question: 'Wie funktioniert Wissenschaft?',
-        image: '',
-        youtube: '7PY49W4QoJ4?si=49fSTj4aobF7YWFo',
-        quelle: 'youtube.com',
-        from: {
-            name: 'Prof. Lemeshko',
-            youtubeChannel: 'https://www.youtube.com/@ProfLemeshko',
-            infos: '',
-            homepage: '',
-        },
-        categorys: ["wissenschaft"]
-    },
-
-        {
+            {
         titel: 'Machen Keime fremdenfeindlich?',
         question: 'Was hat die (Corona-) Antiimpfbewegung mit Rassismus zu tun?',
         image: '',
@@ -29,6 +14,21 @@ export const contributionsArray =[
         categorys: ["wissenschaft","impfen","corona"],
             "postDate": "26.12.2023",
             "contributionDate": "22.03.2023"
+    },
+    
+    {
+        titel: 'Wissenschaftsleugnung: Ist der Kampf schon verloren?',
+        question: 'Wie funktioniert Wissenschaft?',
+        image: '',
+        youtube: '7PY49W4QoJ4?si=49fSTj4aobF7YWFo',
+        quelle: 'youtube.com',
+        from: {
+            name: 'Prof. Lemeshko',
+            youtubeChannel: 'https://www.youtube.com/@ProfLemeshko',
+            infos: '',
+            homepage: '',
+        },
+        categorys: ["wissenschaft"]
     },
 
     {
