@@ -26,7 +26,9 @@ export const contributionsArray =[
             infos: '',
             homepage: '',
         },
-        categorys: ["wissenschaft","impfen","corona"]
+        categorys: ["wissenschaft","impfen","corona"],
+            "postDate": "26.12.2023",
+            "contributionDate": "22.03.2023"
     },
 
     {
