@@ -71,6 +71,12 @@ categorys: ["waldorf","anthropologie","rudolfSteiner","rassismus"]
             answers: [],
             categorys: ["impfen","wissenschaft","rassismus"],
             },
+                    {
+                question: "Was hat die (Corona-) Antiimpfbewegung mit Rassismus zu tun?",
+                answered: "inProgress",
+                answers: [],
+                categorys: ["impfen","wissenschaft","rassismus"],
+                },
             {
             question: "Was unterscheidet eine Coronaimpfung von anderen Impfungen?",
             answered: "inProgress",
