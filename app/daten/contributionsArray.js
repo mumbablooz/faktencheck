@@ -14,6 +14,21 @@ export const contributionsArray =[
         categorys: ["wissenschaft"]
     },
 
+        {
+        titel: 'Machen Keime fremdenfeindlich?',
+        question: 'Was hat die (Corona-) Antiimpfbewegung mit Rassismus zu tun?',
+        image: '',
+        youtube: 'TbYfwslBQo0?si=oXPEmLXpDbankndH',
+        quelle: 'youtube.com',
+        from: {
+            name: 'Prof. Lemeshko',
+            youtubeChannel: 'https://www.youtube.com/@ProfLemeshko',
+            infos: '',
+            homepage: '',
+        },
+        categorys: ["wissenschaft","impfen","corona"]
+    },
+
     {
         titel: 'Ernst U. von Weizsäcker: Wir sind dran. Club of Rome: Der große Bericht',
         question: "Was sind die \"Grenzen des Wachstums\"?",
